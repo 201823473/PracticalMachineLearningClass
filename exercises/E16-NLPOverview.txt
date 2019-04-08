@@ -1,0 +1,14 @@
+# E14 - Natural Language Processing Overview
+
+Research for a commercial product which uses NLP as a core(E.g. google assistant) and describes, in general words, which NLP techniques it uses.
+
+(If two of you have the same commercial product, both of your grades will be penalized --- Be creative! )
+
+
+Dragon Naturally Speaking o DNS, es un software de reconocimiento de voz desarrollado por Dragon System de Newton, Massachusetts. tiene 3 funcionalidades que son; reconocimiento de voz para dictados que escribe lo que se le dicta, reconocimiento de comandos de voz y finalmente lectura de textos.
+
+Historia: El concepto de reconocimiento de voz "Dragon" fue anunciado inicialmente en 1975, pero su prototipo fue en desarrollado en 1982 con la fundación de Dragon System, fue liberado primero en DOS utilizando modelos de markov (Modelo estadistico que asume que hay un proceso de markov de estados no observados), un metodo probabilistico para el reconocimiento de patrones, en ese momento el hardware no era lo suficientemente poderoso para lograr realizar una separación de las palabras por lo que los usuarios debian dictar palabra por palabra. Dragon fue basado en un modelo "trigram" (un caso especial de uso de 3 anagramas), que es conocido como un motor de reconocimiento de voz de pronunciación discreta. 
+
+Actualmente Dragon trabaja usando sofisticada acustica y modelos estadisticos, llegando a familiarizarse con la voz del usuario y con algunas palabras usadas con regularidad en los dictados. La personalización del vocabulario de Dragon ayuda a la productividad, la identificación de errores ayuda al apredizaje de Dragon. Ofrece una precisión de 99% en el reconocimiento de voz, cuando la articulación es normal, lo que permite que las palabras aparezacan en la pantalla casi de inmediato, eliminando los errores de ortografia  y generando un sentido de fiabilidad de la herramienta. Cuanto más se use mejor sera la precisión de la herramienta, apreden las palabras que se usan con mayor frecuencia, además de escribir correctamente palabras dificiles y con mayusculas los nombres propios Tiene versiones avanzadas y especializadas en algunos campos como medicina y legal, asi como versiones empresariales y de hogar
+
+El software funciona comparando 3 bases de datos, la primer con muestras de voz del usuario, quien primero a alimentado la BD, una segunda base de vocabulario del usuario, es decir palabras de uso frecuente y que se va ampliando en la medida que se use y una tercera base con textos "corpus" que el software almacena de procesos anteriores, junto con estadisticas de uso. la combinación en el orden establecido permite una rapida y precisa identificación de las palabras. las ammbiguedades o dudas las resuelve el sistema apoyado en los cuerpos de textos anteriores (tercera base), lo que genera una percepción alineada a la experiencia del usuario.
